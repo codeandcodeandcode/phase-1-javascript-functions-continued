@@ -11,3 +11,9 @@ function saturdayFun(arg="roller-skate"){
             return `You are ${outerpar+par+outerpar}!`;
         }
     }
+
+    let result = wrapAdjective('*')
+      let emphatic = result("a hard worker")
+      console.log(emphatic);
+console.log(wrapAdjective("%")("a dedicated programmer"));
+
